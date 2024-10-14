@@ -1,5 +1,5 @@
 # My Graphic Design Manifesto
-
+![brief description](file:///C:/Users/kajma/OneDrive/Po%C4%8D%C3%ADta%C4%8D/20240904_121546.jpg)
 I believe everyone has a different style when it comes to graphic design. It mostly depends on their hobbies, drawing style, sense of humor, personality, and so on. In this manifesto, I want to show you my style and how my personality appears in graphic design. I’m not here to write about **“how to do graphic design correctly,”** because, for me, that question doesn’t exist. The most important thing for me is **creativity**.
 
 I don’t think creativity has much to do with knowledge, but you can still practice it. But let’s start from the beginning: where does creativity come from? I’m not exactly sure which part of the human body it comes from—maybe the heart, the brain, or even hormones. But one thing I do know is that when I’m creative, I feel confident. There’s no room for questions like **“What if? Will they understand me? Is it good enough?”**

@@ -1,165 +1,33 @@
-<!DOCTYPE html>
-<html lang="sk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - [Tvoje Meno]</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Reset CSS */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+# My Graphic Design Manifesto
+![very good|100x168,20%](20240904_121546.jpg)
 
-        /* Telo stránky */
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            scroll-behavior: smooth;
-            overflow-x: hidden;
-        }
+I believe everyone has a different style when it comes to graphic design. It mostly depends on their hobbies, drawing style, sense of humor, personality, and so on. In this manifesto, I want to show you my style and how my personality appears in graphic design. I’m not here to write about **“how to do graphic design correctly,”** because, for me, that question doesn’t exist. The most important thing for me is **creativity**.
 
-        /* Hlavná hlavička */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 40px;
-            background: #333;
-            color: #fff;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 10;
-            transition: background 0.3s ease;
-        }
+I don’t think creativity has much to do with knowledge, but you can still practice it. But let’s start from the beginning: where does creativity come from? I’m not exactly sure which part of the human body it comes from—maybe the heart, the brain, or even hormones. But one thing I do know is that when I’m creative, I feel confident. There’s no room for questions like **“What if? Will they understand me? Is it good enough?”**
 
-        header.scrolled {
-            background: rgba(0, 0, 0, 0.8);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-        }
+You have to trust yourself. If you don’t, then it’s not really you.
 
-        /* Logo */
-        .logo {
-            font-size: 1.5em;
-            font-weight: bold;
-            color: #4caf50;
-        }
+Another aspect of creativity is having a good environment (whatever that means for you). You need to feel comfortable because emotions flow through your creativity. So we can sum this up in one phrase: **a confident mindset.** And of course, all those emotions mixed with a confident mindset need a form, and that form is graphic design. Graphic design helps us transform our ideas and expressions into a unified form.
 
-        /* Navigačné odkazy */
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
+---
 
-        nav a:hover {
-            color: #4caf50;
-        }
+Now, let’s get to the question: how can we practice creativity, or do we even need to? I think a graphic designer needs to practice creativity every day. It’s like a muscle – the more you use it, the stronger it gets. And as you get older, you might find you have less creativity, which is why you need to keep exercising it. Unlike other fields, graphic designers don’t have specific exercises for creativity. For example, I’m also a musician, so I practice creativity through guitar improvisation, trying to connect it to well-phrased musical sentences. *Someone else might practice creativity by sketching in a notebook or creating their own Halloween makeup style.*
 
-        /* Sekcie */
-        section {
-            padding: 100px 20px;
-            max-width: 1200px;
-            margin: 80px auto;
-            opacity: 0;
-            transform: translateY(50px);
-            transition: all 0.6s ease-out;
-        }
+---
 
-        section.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
+I’ve realized that music and graphic design have something in common. They’re created in a similar way. You can be technically skilled, but the reason people listen to you or look at your work is because you’re interesting, and they might not even know why, but they like what you’re doing. This is called the **“wow effect,”** and it’s just as important in graphic design as it is in music. Be interesting. Make something interesting. When I used to play in a band before moving to Prague, I was always **100% sure of everything I played**. The frontman would often say, **“I don’t know what you just played, bro, but it was freaking good, and I want it in the song!”**
 
-        /* Projekty */
-        .project-gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
+---
 
-        .project {
-            position: relative;
-            width: 300px;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-        }
+But there’s another important factor to keep in mind: working with others. Understanding others and being on the same page is essential. Of course, there will be times when someone or something blocks your creativity. In those moments, remember that it’s a team project. In my opinion, there are two types of people: those who understand you but just want to do things their way – which is fine because they’ll eventually get it, even if they’re being stubborn. And then there are those who simply don’t understand what you’re trying to explain. If that’s the case, it probably means they’re in the wrong place and don’t belong in graphic design. They rush into things without listening.
 
-        .project img {
-            width: 100%;
-            display: block;
-            transition: transform 0.3s ease;
-        }
+**Never work on graphic design unless you're 100% sure of what you're doing.**
 
-        .project:hover {
-            transform: scale(1.05);
-        }
+---
 
-        .project:hover img {
-            transform: scale(1.1);
-        }
+## My Approach to Graphic Design:
 
-        /* O mne a Kontakt */
-        .contact-info a {
-            color: #333;
-            font-weight: bold;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .contact-info a:hover {
-            color: #4caf50;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: #fff;
-            margin-top: 20px;
-        }
-
-    </style>
-</head>
-<body>
-
-<header id="header">
-    <div class="logo">[Tvoje Meno]</div>
-    <nav>
-        <a href="#about">O mne</a>
-        <a href="#services">Služby</a>
-        <a href="#projects">Projekty</a>
-        <a href="#contact">Kontakt</a>
-    </nav>
-</header>
-
-<section id="about">
-    <h2>O mne</h2>
-    <p>**Profesionálny grafický dizajnér** so skúsenosťami v oblasti branding, UI/UX a digitálneho umenia. Tvorím dizajny, ktoré kombinujú estetiku s funkčnosťou a prinášajú hodnotu.</p>
-</section>
-
-<section id="services">
-    <h2>Moje Služby</h2>
-    <ul>
-        <li>Branding – Výrazná vizuálna identita</li>
-        <li>UI/UX Dizajn – Intuitívne a moderné rozhrania</li>
-        <li>Animácie – Dynamické a pútavé efekty</li>
-    </ul>
-</section>
-
-<section id="projects">
-    <h2>Projekty</h2>
-    <div class="project-gallery">
-        <div class="project">
-            <img src="img/project1.jpg" alt="Projekt 1">
-            <p>Moderný UI/UX dizajn pre technologickú firmu.</p
+- Learning everything that excites me in this field
+- Being creative
+- Having a confident mindset
+- Understanding others and being open to new opportunities
